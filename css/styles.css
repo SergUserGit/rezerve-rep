@@ -1,0 +1,202 @@
+:root {
+  --main-color: #212121;
+  --text-blue-color: #2196F3;
+  --text-black-color: #000000;
+  --text-head-color: #757575;
+  --background-white-color: #FFFFFF;
+  --background-hero: #2F303A;
+  --background-advantages: #F5F5F5;
+  --background-our-team: #F5F4FA;
+  --foter-color: rgba(255, 255, 255, 0.6);
+  --font-roboto: 'Roboto', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+}
+
+body {
+  color: var(--main-color);
+  font-family: var(--font-roboto);
+}
+
+.span-style {
+  font-family: var(--font-raleway);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+}
+
+.button-portfolio {
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--background-our-team);
+}
+
+.span-web {
+  color: var(--text-blue-color);
+}
+
+.span-studio {
+  color: var(--text-black-color);
+}
+
+.span-studio-footer {
+  color: var(--background-white-color);
+}
+
+.ref-style {
+  text-decoration: none;
+}
+
+
+.ref-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.head-phone {
+  color: var(--text-head-color);
+}
+
+.header {
+  background-color: var(--background-white-color);
+}
+
+.hero {
+  background-color: var(--background-hero);
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-white-color);
+}
+
+.button-hero {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-white-color);
+  background-color: var(--text-blue-color);
+}
+
+.advantages {
+  background-color: var(--background-advantages);
+}
+
+.paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7143;
+  letter-spacing: 0.03em;
+  color: var(--text-head-color);
+}
+
+.activity {
+  background-color: var(--background-advantages);
+}
+
+.ourteam {
+  background-color: var(--background-our-team);
+}
+
+.image-style {
+  background-color: var(--background-white-color);
+}
+
+.footer {
+  background-color: var(--background-hero);
+}
+
+.ref-footer {
+  color: var(--foter-color);
+  text-decoration: none;
+}
+
+.hero-portfolio {
+  background-color: var(--background-advantages);
+}
+
+.category-elements {
+  background-color: var(--background-advantages);
+}
+
+.advantages-title {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.activity-title {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.16667;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.paragraph-team {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-head-color);
+}
+
+.element {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.paragraph-element {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
