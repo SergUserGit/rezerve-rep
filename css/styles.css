@@ -46,6 +46,12 @@ body {
   background-color: var(--background-our-team);
 }
 
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--background-white-color);
+  background-color: var(--text-blue-color);
+}
+
 .span-web {
   color: var(--text-blue-color);
 }
@@ -71,6 +77,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
   text-decoration: none;
+}
+
+.ref-header:hover,
+.ref-header:focus {
+  color: var(--text-blue-color);
 }
 
 .head-phone {
@@ -140,6 +151,11 @@ body {
 .ref-footer {
   color: var(--foter-color);
   text-decoration: none;
+}
+
+.ref-footer:hover,
+.ref-footer:focus {
+  color: var(--background-white-color);
 }
 
 .hero-portfolio {
